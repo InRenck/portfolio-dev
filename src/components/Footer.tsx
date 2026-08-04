@@ -26,12 +26,12 @@ export function Footer({ lang }: FooterProps) {
           </p>
         </div>
         <a 
-          href={lang === 'pt' ? '/cv-pt.pdf' : '/cv-en.pdf'} 
-          target="_blank" 
-          download
-          className="px-8 py-4 bg-white text-black font-black uppercase rounded-full hover:bg-zinc-200 transition-all border-2 border-black whitespace-nowrap shadow-[4px_4px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-y-1 hover:translate-x-1"
-          >
-            {lang === 'pt' ? '📄 Baixar CV' : '📄 Download CV'}
+        href={lang === 'pt' ? '/cv-pt.pdf' : '/cv-en.pdf'} 
+        target="_blank" 
+        download
+        className="px-8 py-4 bg-white text-black font-black uppercase rounded-full hover:bg-zinc-200 transition-all border-2 border-black whitespace-nowrap shadow-[4px_4px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-y-1 hover:translate-x-1"
+        >
+          {lang === 'pt' ? '📄 Baixar CV' : '📄 Download CV'}
         </a>
       </div>
       <div className="flex flex-wrap justify-center gap-6">
