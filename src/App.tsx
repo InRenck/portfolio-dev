@@ -3,6 +3,7 @@ import { data } from './data/portfolio';
 import { ProjectList } from './components/ProjectList';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [lang, setLang] = useState<'pt' | 'en'>('pt');
@@ -57,6 +58,7 @@ export default function App() {
       <ProjectList data={currentData} lang={lang} />
       <Skills data={currentData} lang={lang} />
       <Footer lang={lang} />
+      <Analytics />
     </div>
   );
 }
