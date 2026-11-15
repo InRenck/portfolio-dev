@@ -10,8 +10,8 @@ export function Footer({ lang }: FooterProps) {
       </h2>
       <p className="text-zinc-400 max-w-xl mb-12 text-lg">
         {lang === 'pt' 
-          ? 'Estou sempre aberta a discutir novos projetos, arquiteturas escaláveis e oportunidades no universo de tecnologia.'
-          : 'I am always open to discussing new projects, scalable architectures, and opportunities in the tech universe.'}
+          ? 'Aberta a oportunidades como Desenvolvedora Júnior, Analista de QA Funcional, LegalTech, Prevenção à Fraude (Fintechs) ou Assistente Jurídico.'
+          : 'Open to opportunities in Junior Software Development, Functional QA, LegalTech, Fintech Fraud/AML Investigation, or Remote Legal Assistance.'}
       </p>
       <div className="mb-12 p-6 md:p-8 border-2 border-blue-600 bg-zinc-900 rounded-3xl max-w-3xl w-full flex flex-col md:flex-row items-center justify-between gap-6 shadow-[8px_8px_0px_#2563eb]">
         <div className="text-left font-mono text-sm sm:text-base text-zinc-300">

@@ -51,7 +51,7 @@ export default function App() {
         </div>
         <div className="absolute top-1/4 right-5 sm:right-20 rotate-[12deg] hover:rotate-0 transition-transform duration-300 cursor-pointer hidden sm:block z-20">
           <div className="bg-black text-white px-8 py-4 rounded-full font-bold text-xl sm:text-2xl shadow-[8px_8px_0px_#2563eb] border-2 border-black">
-            {lang === 'pt' ? 'Front-End (React/Node)' : 'Front-End (React/Node)'}
+            {lang === 'pt' ? 'Dev Júnior • QA • LegalTech' : 'Junior Dev • QA • LegalTech'}
           </div>
         </div>
       </header>

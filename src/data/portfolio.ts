@@ -20,70 +20,70 @@ export interface PortfolioData {
 
 export const data: Record<string, PortfolioData> = {
   pt: {
-    role: "Desenvolvedora de Software",
-    bio: "Construo soluções práticas e eficientes. Focada em criar experiências de usuário fluidas, performáticas e acessíveis, com integrações robustas entre front-end e APIs REST.",
+    role: "Desenvolvedora & QA Júnior",
+    bio: "Formada em Análise e Desenvolvimento de Sistemas e concluinte de Direito, com experiência prática em suporte técnico, testes manuais de sistemas e validação de regras de negócio. Foco atual em JavaScript, SQL e desenvolvimento web com código limpo e bem testado.",
     projects: [
       {
         id: 1,
         title: "DopamineFocus",
-        description: "Aplicação web gamificada focada em criar uma experiência de usuário fluida e de alto desempenho. Utiliza lógicas de recompensa dinâmicas que engajam o usuário. Design 100% responsivo.",
-        tech: ["React (TypeScript)", "Node.js", "Tailwind CSS"],
+        description: "Aplicação web responsiva para organização de tarefas e sessões de foco, com temporizador e acompanhamento gamificado de progresso.",
+        tech: ["React", "JavaScript", "Tailwind CSS"],
         link: "https://github.com/InRenck/DopamineFocus-App"
       },
       {
         id: 2,
         title: "Nexus ERP",
-        description: "Sistema de gestão nativo com forte arquitetura de dados (Node.js/Java). Destaca-se pelo gerenciamento complexo de estado e comunicação eficiente entre camadas lógicas offline.",
-        tech: ["React", "Electron", "Node.js", "Java"],
+        description: "Aplicação desktop offline desenvolvida como projeto de conclusão de ADS, com cadastro de produtos, controle de estoque, fluxo de pedidos e estimativa fiscal local.",
+        tech: ["React", "Electron", "Vite", "JavaScript"],
         link: "https://github.com/InRenck/Nexus-ControledeVendas"
       }
     ],
     skills: [
       {
-        category: "Front-end & UI",
-        list: ["React", "TypeScript", "HTML5/CSS3", "Tailwind CSS", "Acessibilidade Web"]
+        category: "Front-end & Web",
+        list: ["React", "JavaScript", "HTML5/CSS3", "Tailwind CSS", "React", "Design Responsivo"]
       },
       {
-        category: "Ecossistema & Ferramentas",
-        list: ["Vite", "Integração de APIs REST", "Git/GitHub", "Otimização (Lighthouse)"]
+        category: "Dados, QA & Ferramentas",
+        list: ["SQL (Consultas)", "Testes Manuais & QA", "Git/GitHub", "Validação de Regras"]
       },
       {
-        category: "Back-end & Lógica",
-        list: ["Node.js", "Java", "Lógica de Gamificação", "Inglês C2"]
+        category: "Base & Diferenciais",
+        list: ["LegalTech & Direito", "Suporte Técnico", "Lógica de Gamificação", "Inglês C2"]
       }
     ]
   },
   en: {
-    role: "Software Developer",
-    bio: "I build practical and efficient solutions. Focused on creating fluid, high-performance, and accessible user experiences, with robust integrations between front-end and REST APIs.",
+    role: "Junior Developer & QA",
+    bio: "Systems Analysis and Development graduate and final-year Law student with hands-on experience in IT support, manual software testing, and business rule validation. Currently focused on JavaScript, SQL, and building clean, well-tested web applications.",
     projects: [
       {
         id: 1,
         title: "DopamineFocus",
-        description: "Gamified web application focused on creating a fluid and high-performance user experience. Uses dynamic reward logics that engage the user. 100% responsive design.",
-        tech: ["React (TypeScript)", "Node.js", "Tailwind CSS"],
-        link: "#"
+        description: "Responsive web application for task organization and focus sessions, featuring a timer and gamified progress tracking.",
+        tech: ["React", "JavaScript", "Tailwind CSS"],
+        link: "https://github.com/InRenck/DopamineFocus-App"
       },
       {
         id: 2,
         title: "Nexus ERP",
-        description: "Native management system with strong data architecture (Node.js/Java). Stands out for complex state management and efficient communication between offline logical layers.",
-        tech: ["React", "Electron", "Node.js", "Java"],
-        link: "#"
+        description: "Offline desktop application built as an ADS capstone project, featuring product catalog, inventory tracking, order flows, and local tax estimation.",
+        tech: ["React", "Electron", "Vite", "JavaScript"],
+        link: "https://github.com/InRenck/Nexus-ControledeVendas"
       }
     ],
     skills: [
       {
-        category: "Front-end & UI",
-        list: ["React", "TypeScript", "HTML5/CSS3", "Tailwind CSS", "Web Accessibility"]
+        category: "Front-end & Web",
+        list: ["React", "JavaScript", "HTML5/CSS3", "Tailwind CSS", "React", "Responsive Design"]
       },
       {
-        category: "Ecosystem & Tools",
-        list: ["Vite", "REST API Integration", "Git/GitHub", "Optimization (Lighthouse)"]
+        category: "Data, QA & Tools",
+        list: ["SQL (Queries)", "Manual Testing & QA", "Git/GitHub", "Business Rule Validation"]
       },
       {
-        category: "Back-end & Logic",
-        list: ["Node.js", "Java", "Gamification Logic", "C2 English"]
+        category: "Base & Diferenciais",
+        list: ["LegalTech & Law", "Technical Support", "Gamification", "English C2"]
       }
     ]
   }
